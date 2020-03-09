@@ -1,0 +1,10 @@
+from tkinter import *
+raiz = Tk()
+raiz.title("El texto que querais")
+raiz.geometry("1280x920")
+raiz.config(bg = "purple")
+miFrame = Frame()
+miFrame.pack(side = "left")
+miFrame.config(bg ="yellow")
+miFrame.config(width = "240", height = "120")
+raiz.mainloop()
